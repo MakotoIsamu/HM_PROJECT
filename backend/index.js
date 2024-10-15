@@ -12,7 +12,8 @@ app.use(express.json());
 
 // Enable CORS for your frontend
 app.use(cors({
-    origin: 'https://hm-project-kappa.vercel.app'
+    origin: 'https://hm-project-kappa.vercel.app',
+    credentials: true
 }));
 
 // MongoDB connection using Mongoose
