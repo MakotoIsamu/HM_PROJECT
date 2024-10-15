@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { X } from 'lucide-react';
+import { AuthContext } from '../contexts/AuthContext';
 
 const LoginModal = ({ onClose, onSwitchToRegister }) => {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
   });
+  const [error, setError] = useState('');
+  const { login } = useContext(AuthContext);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -15,12 +18,23 @@ const LoginModal = ({ onClose, onSwitchToRegister }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle login logic here
-    console.log('Login data:', formData);
-    // You would typically send this data to your backend
+    setError('');
+  
+    try {
+      const result = await login(formData.email, formData.password); // Login via context
+      if (result.success) {
+        onClose();  // Close the modal on successful login
+      } else {
+        setError(result.message);  // Display error if login fails
+      }
+    } catch (error) {
+      setError("An error occurred during login");
+      console.error(error);
+    }
   };
+  
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
@@ -29,6 +43,7 @@ const LoginModal = ({ onClose, onSwitchToRegister }) => {
           <h2 className="text-2xl font-bold">Login</h2>
           <X onClick={onClose} className="cursor-pointer" />
         </div>
+        {error && <p className="text-red-500 mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>

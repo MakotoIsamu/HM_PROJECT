@@ -17,12 +17,34 @@ const RegisterModal = ({ onClose, onSwitchToLogin }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle registration logic here
-    console.log('Registration data:', formData);
-    // You would typically send this data to your backend
-  };
+    // Ensure passwords match
+    if (formData.password !== formData.confirmPassword) {
+      return alert("Passwords do not match");
+    }
+  
+    try {
+      const response = await fetch('https://hm-rho-drab.vercel.app/api/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        const data = await response.json();
+        console.log('Registration successful:', data);
+        onClose();  // Close the modal after successful registration
+      } else {
+        const errorData = await response.json();
+        console.error('Registration failed:', errorData.message);
+      }
+    } catch (error) {
+      console.error('Error during registration:', error);
+    }
+  };  
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
