@@ -1,0 +1,365 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Men's Classic Fit T-Shirt",
+            "price": 29.99,
+            "description": "Comfortable cotton t-shirt for everyday wear",
+            "categories": ["men"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/men/4d78d09d1368742b4322de2b350ed19318ab069e.avif"
+        },
+        {
+            "id": 2,
+            "name": "Men's Slim Fit Jeans",
+            "price": 59.99,
+            "description": "Stylish denim jeans with a modern slim fit",
+            "categories": ["men"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/men/7b1dc32281cfd897281c01075fd9d81a75f86c2b.avif"
+        },
+        {
+            "id": 3,
+            "name": "Men's Casual Button-Down Shirt",
+            "price": 44.99,
+            "description": "Versatile button-down shirt for casual or semi-formal occasions",
+            "categories": ["men"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/men/eb1627b45b673b33c9beceee25ecd552c96369f4.avif"
+        },
+        {
+            "id": 4,
+            "name": "Men's Athletic Shorts",
+            "price": 34.99,
+            "description": "Breathable shorts perfect for workouts or casual wear",
+            "categories": ["men"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/men/39b5ce5d6adacb7d812f4ac60efc993b2ea83f16.avif"
+        },
+        {
+            "id": 5,
+            "name": "Men's Hooded Sweatshirt",
+            "price": 49.99,
+            "description": "Cozy hoodie for layering or lounging",
+            "categories": ["men"],
+            "category": "outerwear",
+            "image": "/assets/ProductsImages/men/765ac1ff28fef3eeca3167ca8aa1252a936025fb.avif"
+        },
+        {
+            "id": 6,
+            "name": "Men's Polo Shirt",
+            "price": 39.99,
+            "description": "Classic polo shirt suitable for casual or smart-casual settings",
+            "categories": ["men"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/men/56377ee4d2d3d860f5bf1cb946e4108f013e7e30.avif"
+        },
+        {
+            "id": 7,
+            "name": "Men's Chino Pants",
+            "price": 54.99,
+            "description": "Versatile chino pants for a polished casual look",
+            "categories": ["men"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/men/18746823ff2249afa0ce6f04c78d7512593d2cca.avif"
+        },
+        {
+            "id": 8,
+            "name": "Men's Denim Jacket",
+            "price": 69.99,
+            "description": "Timeless denim jacket for layering and style",
+            "categories": ["men"],
+            "category": "outerwear",
+            "image": "/assets/ProductsImages/men/abff3585fc5d57baf5d454d2be0ce931f836e5f2.avif"
+        },
+        {
+            "id": 9,
+            "name": "Men's V-Neck Sweater",
+            "price": 54.99,
+            "description": "Soft and warm v-neck sweater for cooler days",
+            "categories": ["men"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/men/c013e28d250c0e98cc58152d424c4af8b09a3a2e.avif"
+        },
+        {
+            "id": 10,
+            "name": "Men's Cargo Shorts",
+            "price": 44.99,
+            "description": "Practical cargo shorts with multiple pockets",
+            "categories": ["men"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/men/eac6423f1bfef219c4a857f21cd6f04864ad690f.avif"
+        },
+        {
+            "id": 11,
+            "name": "Women's Classic Fit T-Shirt",
+            "price": 24.99,
+            "description": "Comfortable cotton t-shirt for everyday wear",
+            "categories": ["women"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/women/3e3484915d526cd95f6b73522d1a3d88ef82ddf4.avif"
+        },
+        {
+            "id": 12,
+            "name": "Women's Slim Fit Jeans",
+            "price": 59.99,
+            "description": "Stylish denim jeans with a modern slim fit",
+            "categories": ["women"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/women/5b440382d0bb86268723057ba2e7ffdad3f5d350.avif"
+        },
+        {   
+            "id": 13,
+            "name": "Women's Casual Button-Down Shirt",
+            "price": 44.99,
+            "description": "Versatile button-down shirt for casual or semi-formal occasions",
+            "categories": ["women"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/women/7c297bb8b7d18fc002b6a514b3e23255e5e01c4b.avif"
+        },
+        {   
+            "id": 14,
+            "name": "Women's Athletic Shorts",
+            "price": 34.99,
+            "description": "Breathable shorts perfect for workouts or casual wear",
+            "categories": ["women"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/women/114d328ef3945d8a5a66335dac423ff72f2f0b68.avif"
+        },
+        {                  
+            "id": 15,
+            "name": "Women's Hooded Sweatshirt",
+            "price": 49.99,
+            "description": "Cozy hoodie for layering or lounging",
+            "categories": ["women"],
+            "category": "outerwear",
+            "image": "/assets/ProductsImages/women/570f44e2d0c40d57df77774089290231facc4be4.avif"
+        },
+        {       
+            "id": 16,
+            "name": "Women's Polo Shirt",
+            "price": 39.99,
+            "description": "Classic polo shirt suitable for casual or smart-casual settings",
+            "categories": ["women"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/women/6778a99b8330294505ba45c7ad7e284491b9aeb9.avif"
+        },
+        {   
+            "id": 17,
+            "name": "Women's Chino Pants",
+            "price": 54.99,
+            "description": "Versatile chino pants for a polished casual look",
+            "categories": ["women"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/women/9350eab6324ee69d1f8c0263e734c0eba825aaae.avif"
+        },
+        {          
+            "id": 18,
+            "name": "Women's Denim Jacket",
+            "price": 69.99,
+            "description": "Timeless denim jacket for layering and style",
+            "categories": ["women"],
+            "category": "outerwear",
+            "image": "/assets/ProductsImages/women/b592e437dba580e5693d6e2163a6041fefb6e182.avif"
+        },
+        {      
+            "id": 19,
+            "name": "Women's V-Neck Sweater",
+            "price": 54.99,
+            "description": "Soft and warm v-neck sweater for cooler days",
+            "categories": ["women"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/women/d43f460d306b5872822158b88bb93aa0c7e64bf9.avif"
+        },
+        {      
+            "id": 20,
+            "name": "Women's Cargo Shorts",
+            "price": 44.99,
+            "description": "Practical cargo shorts with multiple pockets",
+            "categories": ["women"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/women/e727d364766a9a51995bf0d1b57b2b7485611c6d.avif"
+        },
+        {
+            "id": 21,
+            "name": "Kids' Striped Sweater",
+            "price": 29.99,
+            "description": "Soft and cozy sweater with a playful striped pattern",
+            "categories": ["kids"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/kids/0fb5d9258c3fc83456faa807f54e88544db084d2.avif" 
+        },
+        {
+            "id": 22,
+            "name": "Kids' Denim Joggers",
+            "price": 39.99,
+            "description": "Comfortable denim joggers for active kids",
+            "categories": ["kids"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/kids/2a58408a62a7d70705b2a954f9c8accb4c9edfd4.avif"
+        },
+        {
+            "id": 23,
+            "name": "Kids' Hooded Sweatshirt",
+            "price": 44.99,
+            "description": "Cozy hoodie for kids with a soft fabric",
+            "categories": ["kids"],
+            "category": "outerwear",
+            "image": "/assets/ProductsImages/kids/4c2397b04e7bc681b803b5a839c1a8d0745d7aa1.avif"
+        },
+        {
+            "id": 24,
+            "name": "Kids' Polo Shirt",
+            "price": 34.99,
+            "description": "Classic polo shirt suitable for kids",
+            "categories": ["kids"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/kids/67cfbcb4dadf4115449dc6f545648f3014201fbf.avif"
+        },
+        {
+            "id": 25,
+            "name": "Kids' Cargo Shorts",
+            "price": 44.99,
+            "description": "Practical cargo shorts with multiple pockets for kids",
+            "categories": ["kids"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/kids/89d92817721679f537df63439bf052ab0ec48b4d.avif"
+        },
+        {
+            "id": 26,
+            "name": "Kids' Denim Joggers",
+            "price": 39.99,
+            "description": "Comfortable denim joggers for active kids",
+            "categories": ["kids"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/kids/344c03328f801d2fb3c885c88e2a08812541d9ce.avif"
+        },
+        {
+            "id": 27,
+            "name": "Kids' Hooded Sweatshirt",
+            "price": 44.99,
+            "description": "Cozy hoodie for kids with a soft fabric",
+            "categories": ["kids"],
+            "category": "outerwear",
+            "image": "/assets/ProductsImages/kids/893b3e98da957ba43d7b1901e0f7fe9adc9336de.avif"
+        },
+        {
+            "id": 28,
+            "name": "Kids' Polo Shirt",
+            "price": 34.99,
+            "description": "Classic polo shirt suitable for kids",
+            "categories": ["kids"],
+            "category": "tops",
+            "image": "/assets/ProductsImages/kids/9212cd963146a5ee49b771432a22fb1f8c0d8198.avif"
+        },
+        {
+            "id": 29,
+            "name": "Kids' Cargo Shorts",
+            "price": 44.99,
+            "description": "Practical cargo shorts with multiple pockets for kids",
+            "categories": ["kids"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/kids/9314ec0002adb49b171f81d34cdde0d4b63d5577.avif"
+        },
+        {
+            "id": 30,
+            "name": "Kids' Denim Joggers",
+            "price": 39.99,
+            "description": "Comfortable denim joggers for active kids",
+            "categories": ["kids"],
+            "category": "bottoms",
+            "image": "/assets/ProductsImages/kids/de0ee18069e55a9a85330123b5ab82e446cb6970.avif"
+        },
+        {
+            "id": 31,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/.avif"
+        },
+        {
+            "id": 32,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/.avif"
+        },
+        {
+            "id": 33,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/.avif"
+        },
+        {
+            "id": 34,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/.avif"
+        },
+        {
+            "id": 35,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/.avif"
+        },
+        {
+            "id": 36,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/.avif"
+        },
+        {
+            "id": 37,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/4d78d09d1368742b4322de2b350ed19318ab069e.avif"
+        },
+        {
+            "id": 38,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/4d78d09d1368742b4322de2b350ed19318ab069e.avif"
+        },
+        {
+            "id": 39,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/4d78d09d1368742b4322de2b350ed19318ab069e.avif"
+        },
+        {
+            "id": 40,
+            "name": "Lipstick",
+            "price": 14.99,
+            "description": "Matte lipstick for a bold lip look",
+            "categories": ["beauty"],
+            "category": "lips",
+            "image": "/assets/ProductsImages/beauty/4d78d09d1368742b4322de2b350ed19318ab069e.avif"
+        }
+        
+    ]
+}
